@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="created project structure" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bajtinus&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONBDe8M5-zoY5&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1729074448944
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bajtinus/ML-Project.git&quot;,
+    &quot;accountId&quot;: &quot;728ff7a3-0e72-4a28-9b7b-b94a749bd543&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Bajtinus&quot;,
+    &quot;repository&quot;: &quot;ML-Project&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nW11xI4q1oaDV2famXWjyPL2u5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/filip/OneDrive/Documents/OTH Regensburg/5. WiSe 2024-2025/ML",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\PycharmProjects\ML-Project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\OneDrive\Documents\OTH Regensburg\5. WiSe 2024-2025\ML\Lectures" />
+      <recent name="C:\Users\filip\OneDrive\Documents\OTH Regensburg\5. WiSe 2024-2025\ML" />
+      <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files" />
+      <recent name="C:\Users\filip\PycharmProjects\ML-Project\data-sets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="" />
+      <created>1729073806496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729073806496</updated>
+      <workItem from="1729073807675" duration="792000" />
+      <workItem from="1729074606842" duration="131000" />
+      <workItem from="1729158265761" duration="618000" />
+    </task>
+    <task id="LOCAL-00001" summary="created project structure">
+      <option name="closed" value="true" />
+      <created>1729074415846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729074415846</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created project structure">
+      <option name="closed" value="true" />
+      <created>1729158746881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729158746881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="created project structure" />
+  </component>
+</project>
