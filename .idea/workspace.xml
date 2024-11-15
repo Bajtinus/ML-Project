@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="added latest files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture1_LinearModels_Part1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture1_LinearModels_Part1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="8.11 tutorium" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1730893293192" duration="295000" />
       <workItem from="1730893655715" duration="59000" />
       <workItem from="1731056101244" duration="4405000" />
-      <workItem from="1731064169031" duration="1196000" />
+      <workItem from="1731064169031" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="created project structure">
       <option name="closed" value="true" />
@@ -145,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731056505795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8.11 tutorium">
+      <option name="closed" value="true" />
+      <created>1731065401302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731065401302</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +160,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="organized folders" />
     <MESSAGE value="added latest files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added latest files" />
+    <MESSAGE value="8.11 tutorium" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.11 tutorium" />
   </component>
 </project>
