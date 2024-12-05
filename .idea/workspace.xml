@@ -1,22 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="Very short commit message" />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="8.11 tutorium" />
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="polish on lecture 1">
+      <changelist_data name="Filip Pristaš" email="142082692+bajtinus@users.noreply.github.com" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELO-files/Python/Fruits_scatter_matrix.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/Fruits_scatter_matrix.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELO-files/Python/HeartBin_scatter_matrix.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/HeartBin_scatter_matrix.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture1_LinearModels_Part1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture1_LinearModels_Part1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture2_LinearModels_Part2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture2_LinearModels_Part2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Filip Pristaš &lt;142082692+bajtinus@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="WiSe-2023" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -45,22 +74,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;filip&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/filip/OneDrive/Documents/OTH Regensburg/5. WiSe 2024-2025/ML&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "filip",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/filip/OneDrive/Documents/OTH Regensburg/5. WiSe 2024-2025/ML",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Lectures" />
@@ -72,8 +101,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
-        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.24807.21" />
+        <option value="bundled-python-sdk-00717045f1d3-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.24807.21" />
       </set>
     </attachedChunks>
   </component>
@@ -100,6 +129,8 @@
       <workItem from="1730893655715" duration="59000" />
       <workItem from="1731056101244" duration="4405000" />
       <workItem from="1731064169031" duration="1234000" />
+      <workItem from="1733385289124" duration="2083000" />
+      <workItem from="1733387409132" duration="4993000" />
     </task>
     <task id="LOCAL-00001" summary="created project structure">
       <option name="closed" value="true" />
@@ -149,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731065401302</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="polish on lecture 1">
+      <option name="closed" value="true" />
+      <created>1733387174177</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733387174177</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +200,10 @@
     <MESSAGE value="organized folders" />
     <MESSAGE value="added latest files" />
     <MESSAGE value="8.11 tutorium" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.11 tutorium" />
+    <MESSAGE value="polish on lecture 1" />
+    <MESSAGE value="Update execution counts and remove semicolons&#10;&#10;Updated the execution counts in the Jupyter notebook to improve readability and maintain consistency across cells. Removed semicolons from matplotlib plotting commands to align with Python's standard function usage. This change ensures cleaner and more Pythonic code." />
+    <MESSAGE value="Update execution metadata and remove semicolons in ML Lecture 2 notebook." />
+    <MESSAGE value="Refactor lecture notebook execution times and update dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor lecture notebook execution times and update dependencies." />
   </component>
 </project>
