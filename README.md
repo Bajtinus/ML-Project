@@ -1,7 +1,7 @@
 # ML-Project
 - Filip Pristaš
 - Alex Popow
-- someone else
+- Lars Nettersheim
 
 # Goals
 - [ ] create goals...

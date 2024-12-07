@@ -10,7 +10,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ELO-files\Old\Notebooks\Fruits.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data-sets\Auto.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data-sets\Fruits.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

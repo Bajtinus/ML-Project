@@ -18,15 +18,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="polish on lecture 1">
-      <changelist_data name="Filip Pristaš" email="142082692+bajtinus@users.noreply.github.com" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="L3A3">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELO-files/Python/Fruits_scatter_matrix.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/Fruits_scatter_matrix.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ELO-files/Python/HeartBin_scatter_matrix.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/HeartBin_scatter_matrix.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture1_LinearModels_Part1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture1_LinearModels_Part1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture2_LinearModels_Part2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture2_LinearModels_Part2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-sets/Fruits.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data-sets/Fruits.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Bajtinus/ML-Project.git&quot;,
-    &quot;accountId&quot;: &quot;728ff7a3-0e72-4a28-9b7b-b94a749bd543&quot;
+    &quot;accountId&quot;: &quot;16361fc7-e678-4842-91eb-576713a070fa&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -74,22 +71,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "filip",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/filip/OneDrive/Documents/OTH Regensburg/5. WiSe 2024-2025/ML",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;filip&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/filip/OneDrive/Documents/OTH Regensburg/5. WiSe 2024-2025/ML&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Lectures" />
@@ -130,7 +127,12 @@
       <workItem from="1731056101244" duration="4405000" />
       <workItem from="1731064169031" duration="1234000" />
       <workItem from="1733385289124" duration="2083000" />
-      <workItem from="1733387409132" duration="4993000" />
+      <workItem from="1733387409132" duration="10640000" />
+      <workItem from="1733408651790" duration="286000" />
+      <workItem from="1733415395044" duration="96000" />
+      <workItem from="1733469656421" duration="846000" />
+      <workItem from="1733491941905" duration="2986000" />
+      <workItem from="1733571252387" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="created project structure">
       <option name="closed" value="true" />
@@ -188,7 +190,39 @@
       <option name="project" value="LOCAL" />
       <updated>1733387174177</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Minor adjustments on first 2 notebooks">
+      <option name="closed" value="true" />
+      <created>1733393020278</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733393020278</updated>
+    </task>
+    <task id="LOCAL-00009" summary="L3A1">
+      <option name="closed" value="true" />
+      <created>1733393046468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733393046468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="L3A2">
+      <option name="closed" value="true" />
+      <created>1733397709362</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733397709362</updated>
+    </task>
+    <task id="LOCAL-00011" summary="L3A3">
+      <option name="closed" value="true" />
+      <created>1733398707757</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733398707757</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +238,12 @@
     <MESSAGE value="Update execution counts and remove semicolons&#10;&#10;Updated the execution counts in the Jupyter notebook to improve readability and maintain consistency across cells. Removed semicolons from matplotlib plotting commands to align with Python's standard function usage. This change ensures cleaner and more Pythonic code." />
     <MESSAGE value="Update execution metadata and remove semicolons in ML Lecture 2 notebook." />
     <MESSAGE value="Refactor lecture notebook execution times and update dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor lecture notebook execution times and update dependencies." />
+    <MESSAGE value="Update .idea configuration and polish ML Lecture Part 2 notebook" />
+    <MESSAGE value="Add .idea config files and update notebook metadata and execution times." />
+    <MESSAGE value="Minor adjustments on first 2 notebooks" />
+    <MESSAGE value="L3A1" />
+    <MESSAGE value="L3A2" />
+    <MESSAGE value="L3A3" />
+    <option name="LAST_COMMIT_MESSAGE" value="L3A3" />
   </component>
 </project>
