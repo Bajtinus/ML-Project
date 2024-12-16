@@ -18,14 +18,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="L3A3">
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/CNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/data_class.py" afterDir="false" />
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="CNN implementation">
+      <change afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture4_CrossValidation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/CNN Youtube.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ELO-files/Python/ML_Lecture3_Classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CNN.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,33 +79,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.d.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_class.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;filip&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/filip/PycharmProjects/ML-Project/Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.d.executor": "Run",
+    "Python.data_class.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "filip",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/ML_Dataset/bite_size/training",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ML_Dataset\bite_size\training" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\Project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Lectures" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Python" />
+      <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Lectures" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Old" />
     </key>
@@ -115,8 +114,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
-        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
+        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
       </set>
     </attachedChunks>
   </component>
@@ -154,7 +153,10 @@
       <workItem from="1734014622855" duration="1719000" />
       <workItem from="1734016374033" duration="438000" />
       <workItem from="1734016936280" duration="527000" />
-      <workItem from="1734017478044" duration="774000" />
+      <workItem from="1734017478044" duration="2823000" />
+      <workItem from="1734246277207" duration="1386000" />
+      <workItem from="1734247718233" duration="412000" />
+      <workItem from="1734248141698" duration="5722000" />
     </task>
     <task id="LOCAL-00001" summary="created project structure">
       <option name="closed" value="true" />
@@ -252,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733572779750</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CNN implementation">
+      <option name="closed" value="true" />
+      <created>1734018716803</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734018716803</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +284,8 @@
     <MESSAGE value="L3A1" />
     <MESSAGE value="L3A2" />
     <MESSAGE value="L3A3" />
-    <option name="LAST_COMMIT_MESSAGE" value="L3A3" />
+    <MESSAGE value="CNN implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="CNN implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,6 +294,11 @@
           <url>file://$PROJECT_DIR$/Project/data_class.py</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/Project/CNN.ipynb</url>
+          <line>103</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
