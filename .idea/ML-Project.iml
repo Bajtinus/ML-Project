@@ -3,9 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv1" />
     </content>
     <content url="file://D:/ML_Dataset" />
-    <orderEntry type="jdk" jdkName="Python 3.12 (ML-Project) (2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.12 (ML-Project)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

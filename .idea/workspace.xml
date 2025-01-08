@@ -18,13 +18,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="added new files">
-      <change afterPath="$PROJECT_DIR$/Project/dataset_splitter.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/folder_renamer.py" afterDir="false" />
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="CNN implementation">
+      <change afterPath="$PROJECT_DIR$/Project/dataset_manipulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/plancton.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ML-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/CNN Youtube.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CNN Youtube.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/dataset_splitter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/dataset_splitter.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Bajtinus/ML-Project.git&quot;,
-    &quot;accountId&quot;: &quot;728ff7a3-0e72-4a28-9b7b-b94a749bd543&quot;
+    &quot;accountId&quot;: &quot;16361fc7-e678-4842-91eb-576713a070fa&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -84,6 +89,9 @@
   &quot;keyToString&quot;: {
     &quot;Python.d.executor&quot;: &quot;Run&quot;,
     &quot;Python.data_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataset_divider.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataset_equalizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataset_manipulator (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.dataset_splitter.executor&quot;: &quot;Run&quot;,
     &quot;Python.folder_renamer.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -98,23 +106,93 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jupyter.core.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ML_Dataset\bite_size\training" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\Project" />
+      <recent name="D:\ML_Dataset\bite_size\training" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\PycharmProjects\ML-Project\Project" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Python" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Lectures" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Old" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.folder_renamer">
+  <component name="RunManager" selected="Python.dataset_manipulator (1)">
+    <configuration name="dataset_divider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/dataset_divider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataset_manipulator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/dataset_manipulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataset_manipulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\filip\PycharmProjects\ML-Project\Project\dataset_manipulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dataset_splitter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Project" />
       <option name="ENV_FILES" value="" />
@@ -163,8 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.folder_renamer" />
+        <item itemvalue="Python.dataset_manipulator (1)" />
+        <item itemvalue="Python.dataset_manipulator" />
+        <item itemvalue="Python.dataset_divider" />
         <item itemvalue="Python.dataset_splitter" />
+        <item itemvalue="Python.folder_renamer" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +305,20 @@
       <workItem from="1735307717357" duration="817000" />
       <workItem from="1735310300540" duration="281000" />
       <workItem from="1735310631327" duration="477000" />
+      <workItem from="1736152884398" duration="3969000" />
+      <workItem from="1736156916676" duration="6235000" />
+      <workItem from="1736163496390" duration="705000" />
+      <workItem from="1736172825232" duration="484000" />
+      <workItem from="1736174836599" duration="4469000" />
+      <workItem from="1736180172626" duration="2024000" />
+      <workItem from="1736227823919" duration="2177000" />
+      <workItem from="1736230042941" duration="290000" />
+      <workItem from="1736272855678" duration="9011000" />
+      <workItem from="1736309859360" duration="3988000" />
+      <workItem from="1736313919344" duration="14000" />
+      <workItem from="1736337225700" duration="5378000" />
+      <workItem from="1736348483500" duration="79000" />
+      <workItem from="1736348568826" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="created project structure">
       <option name="closed" value="true" />
@@ -362,18 +457,16 @@
           <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/Project/CNN.ipynb</url>
-          <line>103</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ML_Project$dataset_divider.coverage" NAME="dataset_divider Coverage Results" MODIFIED="1736180635145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
+    <SUITE FILE_PATH="coverage/ML_Project$dataset_manipulator__1_.coverage" NAME="dataset_manipulator (1) Coverage Results" MODIFIED="1736309930568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$d.coverage" NAME="d Coverage Results" MODIFIED="1733658038275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$data_class.coverage" NAME="data_class Coverage Results" MODIFIED="1733658111957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$folder_renamer.coverage" NAME="folder_renamer Coverage Results" MODIFIED="1735298085068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
-    <SUITE FILE_PATH="coverage/ML_Project$dataset_splitter.coverage" NAME="dataset_splitter Coverage Results" MODIFIED="1735297767285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
+    <SUITE FILE_PATH="coverage/ML_Project$dataset_splitter.coverage" NAME="dataset_splitter Coverage Results" MODIFIED="1736179664678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
+    <SUITE FILE_PATH="coverage/ML_Project$dataset_equalizer.coverage" NAME="dataset_equalizer Coverage Results" MODIFIED="1736282592612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
   </component>
 </project>
