@@ -18,18 +18,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="CNN implementation">
-      <change afterPath="$PROJECT_DIR$/Project/dataset_manipulator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/plancton.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3c69e974-e08e-42d8-ba1a-42fc3868a098" name="Changes" comment="improvements">
+      <change afterPath="$PROJECT_DIR$/Project/Copy of cnns_from_scratch.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/models/plankton_cnn_model2.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/CNN Youtube.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CNN Youtube.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/d.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/dataset_splitter.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/dataset_splitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/plancton.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/plancton.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,9 @@
     &quot;Python.dataset_equalizer.executor&quot;: &quot;Run&quot;,
     &quot;Python.dataset_manipulator (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.dataset_splitter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feature_map_visualization.executor&quot;: &quot;Run&quot;,
     &quot;Python.folder_renamer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -116,14 +115,14 @@
       <recent name="D:\ML_Dataset\bite_size\training" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\PycharmProjects\ML-Project\Project\models" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\Project" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Python" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Lectures" />
       <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files" />
-      <recent name="C:\Users\filip\PycharmProjects\ML-Project\ELO-files\Old" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dataset_manipulator (1)">
+  <component name="RunManager" selected="Python.test">
     <configuration name="dataset_divider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Project" />
       <option name="ENV_FILES" value="" />
@@ -193,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset_splitter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="feature_map_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +206,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/dataset_splitter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/feature_map_visualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="folder_renamer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,7 +229,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/folder_renamer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.feature_map_visualization" />
         <item itemvalue="Python.dataset_manipulator (1)" />
         <item itemvalue="Python.dataset_manipulator" />
         <item itemvalue="Python.dataset_divider" />
-        <item itemvalue="Python.dataset_splitter" />
-        <item itemvalue="Python.folder_renamer" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +318,20 @@
       <workItem from="1736337225700" duration="5378000" />
       <workItem from="1736348483500" duration="79000" />
       <workItem from="1736348568826" duration="744000" />
+      <workItem from="1736350027297" duration="3299000" />
+      <workItem from="1736425677812" duration="4279000" />
+      <workItem from="1736430029729" duration="1438000" />
+      <workItem from="1736501359266" duration="2120000" />
+      <workItem from="1736512958125" duration="703000" />
+      <workItem from="1736586780306" duration="13905000" />
+      <workItem from="1736601764643" duration="351000" />
+      <workItem from="1736675261778" duration="1653000" />
+      <workItem from="1736678019885" duration="4845000" />
+      <workItem from="1736776610163" duration="934000" />
+      <workItem from="1736777564289" duration="810000" />
+      <workItem from="1736778392655" duration="192000" />
+      <workItem from="1736778593555" duration="1402000" />
+      <workItem from="1736795885810" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="created project structure">
       <option name="closed" value="true" />
@@ -424,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734018716803</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="improvements">
+      <option name="closed" value="true" />
+      <created>1736350775720</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736350775720</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +468,8 @@
     <MESSAGE value="L3A2" />
     <MESSAGE value="L3A3" />
     <MESSAGE value="CNN implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="CNN implementation" />
+    <MESSAGE value="improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,16 +479,23 @@
           <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/Project/Copy of cnns_from_scratch.ipynb</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ML_Project$dataset_divider.coverage" NAME="dataset_divider Coverage Results" MODIFIED="1736180635145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$dataset_manipulator__1_.coverage" NAME="dataset_manipulator (1) Coverage Results" MODIFIED="1736309930568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
+    <SUITE FILE_PATH="coverage/ML_Project$test.coverage" NAME="test Coverage Results" MODIFIED="1736600467066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$d.coverage" NAME="d Coverage Results" MODIFIED="1733658038275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$data_class.coverage" NAME="data_class Coverage Results" MODIFIED="1733658111957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$folder_renamer.coverage" NAME="folder_renamer Coverage Results" MODIFIED="1735298085068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$dataset_splitter.coverage" NAME="dataset_splitter Coverage Results" MODIFIED="1736179664678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
     <SUITE FILE_PATH="coverage/ML_Project$dataset_equalizer.coverage" NAME="dataset_equalizer Coverage Results" MODIFIED="1736282592612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
+    <SUITE FILE_PATH="coverage/ML_Project$feature_map_visualization.coverage" NAME="feature_map_visualization Coverage Results" MODIFIED="1736593475135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project" />
   </component>
 </project>
