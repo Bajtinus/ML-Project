@@ -26,7 +26,7 @@ It then adds the following structure:
             - actinotrocha
             - amphipods
             - ...
-        - etc..
+        - etc...
 
 """
 
@@ -119,8 +119,6 @@ def equalize_dataset(samples_per_class):
         files = os.listdir(f'{split_training}/{folder}')
         count = len(files)
         os.makedirs(f"{output_path}/{folder}", exist_ok=True)
-        # select the first x samples, if more than x
-        # else, copy all and repeat until x sample
         for i in range(samples_per_class):
             file = files[i % count]
             copy_with_rename(f'{training_path}/{folder}/{file}', f"{output_path}/{folder}/{file}")
@@ -135,7 +133,6 @@ def divide_dataset(division_factor):
 
     for folder in os.listdir(training_path):
         count = len(os.listdir(f'{training_path}/{folder}'))
-        # copy the first count / 1000 files
         os.makedirs(f"{output_path}/{folder}", exist_ok=True)
         for i, filename in enumerate(os.listdir(f'{training_path}/{folder}')):
             if i >= count // division_factor:
@@ -153,7 +150,7 @@ def main():
     WARNING: Due to copying about 220,000 files, worth of over 8GB, organize_images() may takes some time.
     Depending on the parameters you choose, the other functions may take a while as well.
     """
-    equalize_dataset(100)
+    equalize_dataset(300)
 
 
 if __name__ == '__main__':
