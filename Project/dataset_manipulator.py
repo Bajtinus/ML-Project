@@ -1,4 +1,6 @@
 """
+This file was created by all members of the group
+
 These functions are used to create sub datasets from the original.
 It then creates new subsets within the "subsets" directory of the root.
 The folder structure before running anything should look like this:
